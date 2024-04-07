@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+}
+p{
+    color: black;
+}
+
+.text-container {
+    display: flex;
+    align-items: center; 
+}
+.card-title.custom-text-color{
+    color: black;
+}
+.card-body{
+    height: 250px;
+}
+.navbar.navbar-expand-lg.navbar-lights.bg-lights{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}

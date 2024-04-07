@@ -1,0 +1,47 @@
+body{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container:nth-child(1){
+    background: transparent;
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+p{
+    color: white;
+}
+.card{
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.card img{
+    padding: 1em;
+}
+.card:hover{
+    backdrop-filter: blur(4px);
+}
+.text-container {
+    display: flex;
+    align-items: center; 
+}
+.custom-text-color {
+    color: white;
+}
+.card-title.custom-text-color{
+    color: white;
+}
+.container.col-md-3.my-auto {
+    background: transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    border-radius: 50px;
+    width: 30%;
+    height: 100%;
+}
+.container.text-center.my-5{
+    backdrop-filter: blur(0px)  
+}   
+.card-img-top{
+    pointer-events: none;
+    margin: 5%;
+}   
